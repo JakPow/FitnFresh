@@ -1,0 +1,728 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*------------------- Margin top for the body of each page--------------------------*/
+.body{
+	padding-top: 60px;
+}
+
+/* -------------------navbar----------------------- */
+
+.navbar-default{
+	background-color: #1f3f68;
+	display: flex;
+	justify-content: center;
+}
+
+.navbar.navbar-default.navbar-fixed-top li a{
+	color: white;
+}
+
+.sr-only{
+	color: darkgray;
+}
+
+.current{
+	color: darkgray;
+}
+
+/* ---------------- tab view for services page--------------- */
+
+.nav.nav-tabs{
+	display: flex;
+	justify-content: center;
+}
+
+/*------------  Set the margins for the fluid container for basic elements on the page ----------  */
+
+.container-fluid2 {
+	margin: 0px 15% 0px 15%;
+	
+}
+
+
+.container-fluid {
+	margin: 0px 20% 0px 20%;
+	
+}
+
+
+
+/*-------------  Set various left and right column parameters for various web pages --------------- */
+
+#right {
+	width: 40%; 
+	float:right;
+}
+#left {
+	width: 60%; 
+	float:left;
+}
+
+#right1 {
+	width: 50%; 
+	float:right;
+}
+
+#left1{
+	width: 50%; 
+	float:left;
+}
+
+#right5 {
+	width: 50%; 
+	float:right;
+}
+
+#left5{
+	width: 50%; 
+	float:left;
+}
+
+
+#left6 {
+	width: 70%; 
+	float:left;
+}
+
+#right6{
+	width: 30%; 
+	float:right;
+}
+
+#farleft{
+	width: 33%;
+	float: left;
+}
+
+#farmiddle{
+	width: 33%;
+}
+
+#farright{
+	width: 33%;
+	float: right;
+}
+
+/*--------	Headings -----------  */
+
+.h2 {
+  font-size: 50px;
+  color: #1F3F68;
+  background-color: rgba(204,204,204,1.00);
+  text-align: center;
+	word-wrap: break-word;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	-o-hyphens: auto;
+	hyphens: auto;
+}
+
+
+
+/* 	------------------------media queries-----------------------*/
+
+/*-----------------small screens (mobile phones) - home page-----------------------*/
+@media only screen and (min-width : 200px) and (max-width : 480px){
+	
+	
+	h2{
+		font-size: 30px;
+	}
+	
+	
+	h7{
+		font-size: 25px;
+	}
+	
+	h8{
+		font-size: 25px;
+	}
+	
+	
+	.container-fluid2 {
+	margin: 0px 0% 0px 0%;
+	}
+
+
+	.container-fluid {
+	margin: 0px 0% 0px 0%;
+	}
+	
+	
+	.sticky-container{
+		display: none;
+	}
+
+	#right {
+	width: 100%;
+		float: left;
+	}
+	
+	#left {
+	width: 100%; 
+		float: left;
+	}	
+	
+	
+	
+	/*---contact page---*/
+	
+	#right6 {
+	width: 100%;
+	float: left;
+	}
+	
+	#left6 {
+	width: 100%; 
+	float: left;
+	}	
+	
+	
+
+
+	
+	/*-----contact page end--------- */
+	
+	.columnf1 {
+	width: 100%;
+	padding: 30px;
+	height: 235px;
+	color: white;
+	}
+
+.columnf2 {
+	width: 100%;
+	padding: 30px;
+	height: 235px;
+	color: white;
+	}
+
+.columnf3 {
+	width: 100%;
+	padding: 30px;
+	height: 235px;
+	color: white;
+	}
+
+	.carousel-caption{
+		
+		display: none;
+	}
+
+
+
+}
+
+/*-----------------------medium screens(tablets & Notebooks) - home page--------------------*/
+@media only screen and (min-width : 768px) and (max-width : 1024px){
+	
+	
+	
+	
+	h2{
+		font-size: 40px;
+	}
+	
+	h7{
+		font-size: 30px;
+	}
+	
+	h8{
+		font-size: 30px;
+	}
+	
+	
+	
+	#right {
+	width: 40%; 
+	float:right;
+	}
+	#left {
+	width: 60%; 
+	float:left;
+	}	
+	
+		.container-fluid2 {
+	margin: 0px 0% 0px 0%;
+	}
+
+
+	.container-fluid {
+	margin: 0px 0% 0px 0%;
+	}
+	
+	
+	.columnf1 {
+	float: left;
+	width: 33.3%;
+	padding: 30px;
+	height: 235px;
+	color: white;
+	}
+
+.columnf2 {
+	float: left;
+	width: 33.3%;
+	padding: 30px;
+	height: 235px;
+	color: white;
+	}
+
+.columnf3 {
+	float: left;
+	width: 33.3%;
+	padding: 30px;
+	height: 235px;
+	color: white;
+	}
+
+
+}
+
+/*-----------------large screens (desktops) - home page----------------------*/
+@media only screen and (min-width : 1025px) and (max-width : 1280px){
+	
+	
+
+	
+	
+	#right {
+	width: 40%; 
+	float:right;
+	}
+	#left {
+	width: 60%; 
+	float:left;
+	}	
+	.columnf1 {
+	float: left;
+	width: 33.3%;
+	padding: 30px;
+	height: 235px;
+	color: white;
+	}
+
+.columnf2 {
+	float: left;
+	width: 33.3%;
+	padding: 30px;
+	height: 235px;
+	color: white;
+	}
+
+.columnf3 {
+	float: left;
+	width: 33.3%;
+	padding: 30px;
+	height: 235px;
+	color: white;
+	}
+
+
+}
+
+	.shorttext{
+		display: none;
+	}
+	
+
+/*-----------------small screens(mobile phones) - Services page---------------*/
+@media only screen and (min-width : 200px) and (max-width : 480px){
+	
+	
+	
+	
+	
+	.shorttext{
+		display: inline-block;
+		align-content: center;
+	}
+	
+	.fulltext{
+		display: none;
+	}
+	
+	
+	#right1 {
+	width: 100%; 
+	float:left;
+	}
+	
+	#left1 {
+	width: 100%; 
+	float:left;
+	}	
+	
+	.carousel-content{
+	color:#1f3f68;
+	font-size: 10px;
+	background-color:  rgba(204,204,204,1.00);
+	text-align: center;
+	position: relative;
+}
+	
+	.columnf1 {
+	float: left;
+	width: 100%;
+	padding: 30px;
+	height: 235px;
+	color: white;
+	}
+
+	.columnf2 {
+	float: left;
+	width: 100%;
+	padding: 30px;
+	height: 235px;
+	color: white;
+	}
+
+	.columnf3 {
+	float: left;
+	width: 100%;
+	padding: 30px;
+	height: 235px;
+	color: white;
+	}
+
+
+
+}
+
+/*------------------medium screens(tablets & notebooks) - Services page----------------*/
+@media only screen and (min-width : 768px) and (max-width : 1024px){
+	
+	
+	.shorttext{
+	display: none;
+	}
+	
+	.fulltext{
+	display: inline-block;
+	align-content: center;
+	}
+	
+	#right1 {
+	width: 50%; 
+	float:right;
+	}
+	#left1 {
+	width: 50%; 
+	float:left;
+	}	
+	
+	.carousel-content{
+	color:#1f3f68;
+	font-size: 30px;
+	background-color:  rgba(204,204,204,1.00);
+	text-align: center;
+	position: relative;
+}
+	
+		.columnf1 {
+	float: left;
+	width: 33.3%;
+	padding: 30px;
+	height: 235px;
+	color: white;
+	}
+
+	.columnf2 {
+	float: left;
+	width: 33.3%;
+	padding: 30px;
+	height: 235px;
+	color: white;
+	}
+
+	.columnf3 {
+	float: left;
+	width: 33.3%;
+	padding: 30px;
+	height: 235px;
+	color: white;
+	}
+
+
+}
+
+/*------------------large screens (desktops) - Services page*-------------------*/
+@media only screen and (min-width : 1200px){
+	
+	#right1 {
+	width: 50%; 
+	float:right;
+	}
+	#left1 {
+	width: 50%; 
+	float:left;
+	}	
+	
+	.carousel-content{
+	color:#1f3f68;
+	font-size: 50px;
+	background-color: #fff;
+	text-align: center;
+	position: relative;
+	 
+}
+	
+		.columnf1 {
+	float: left;
+	width: 33.3%;
+	padding: 30px;
+	height: 235px;
+	color: white;
+	}
+
+	.columnf2 {
+	float: left;
+	width: 33.3%;
+	padding: 30px;
+	height: 235px;
+	color: white;
+	}
+
+	.columnf3 {
+	float: left;
+	width: 33.3%;
+	padding: 30px;
+	height: 235px;
+	color: white;
+	}
+
+
+}
+
+
+
+/* ----------------------------Google maps api --------------------------------*/ 
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
+
+.centered{
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+
+/*------------------------ list css for tabs on services page------------------------*/
+.ul li{
+	list-style-type: none;
+	
+	}
+
+.tab-content p{
+	font-size: x-large;
+	color: #1f3f68;
+	align-content: center;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+	
+	
+	ul.nav.nav-tabs{
+		height:auto;
+	}
+	
+	
+	ul.nav.nav-tabs li a
+	{
+		width:64px;
+	}	
+}
+
+/*---------------------- css for rounded images-------------------------*/
+
+.imgrounded{
+	border-radius: 25%;
+	width: 97%;
+	height: auto;
+	
+}
+
+
+/*---------------------jumbotron css -------------------------*/
+
+.jumbotron{
+	background-color: #0CB3E2;
+	color: white;
+}
+
+.btn.btn-primary.btn-lg{
+	background-color: #FF0DB3E3;
+	color: black;
+	border-color: orange;
+}
+
+
+
+
+/*----------------------------------Social Media Icons-----------------------------------*/
+
+
+.sticky-container{
+    padding:0px;
+    margin:0px;
+    position:fixed;
+    right:-130px;
+    top:230px;
+    width:210px;
+    z-index: 1100;
+}
+.sticky li{
+    list-style-type:none;
+    background-color: white;
+    color:#efefef;
+    height:43px;
+    padding:0px;
+    margin:0px 0px 1px 0px;
+    -webkit-transition:all 0.25s ease-in-out;
+    -moz-transition:all 0.25s ease-in-out;
+    -o-transition:all 0.25s ease-in-out;
+    transition:all 0.25s ease-in-out;
+    cursor:pointer;
+}
+.sticky li:hover{
+    margin-left:-115px;
+}
+.sticky li img{
+    float:left;
+    margin:5px 4px;
+    margin-right:5px;
+}
+.sticky li p{
+    padding-top:5px;
+    margin:0px;
+    line-height:16px;
+    font-size:11px;
+}
+.sticky li p a{
+    text-decoration:none;
+    color:#2C3539;
+}
+.sticky li p a:hover{
+    text-decoration:underline;
+}
+
+
+.center {
+	
+	align-content: center;
+	margin: 0 auto;
+	width: 388px;
+	
+}
+
+
+.sticky1 {
+
+    background-color: white;
+    color:#efefef;
+
+    padding:1px;
+
+}
+
+
+
+
+
+/* -------------------Home page LIST----------------------*/
+
+
+divlist {
+  width: 500px;
+  margin: 10px
+}
+ 
+ol {
+  color: #ccc;
+  list-style-type: none;
+}
+ 
+headinglist {
+  position: relative;
+  font: bold italic 45px/1.5 Helvetica, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+ 
+li p {
+  font: 12px/1.5 Helvetica, sans-serif;
+  padding-left: 60px;
+  color: #555;
+}
+ 
+spanlist {
+  position: absolute;
+}
+
+/* ----------------------- yet to come gallery ----------------------------------*/
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 23%;
+}
+
+
+div.gallery img {
+    width: 100%;
+    height: 250px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: right;
+}
+
+
+@media only screen and (min-width : 200px) and (max-width : 480px){
+	
+	div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 100%;
+}
+		
+}
+
+/* --------------------Testimonials Page heading----------------------*/
+
+.testiHeader{
+	
+	text-align: center;
+	font-size: 30px;
+ 	color: #1F3F68;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.leftfooter{
+	
+	margin-left: 20px;
+}
